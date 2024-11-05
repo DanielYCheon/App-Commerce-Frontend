@@ -1,0 +1,4 @@
+{
+  "_commnet": "This file is used to configure the prettier-plugin-tailwindcss plugin, which is Automatic Class Sorting with Prettier and Tailwind CSS",
+  "plugins": ["prettier-plugin-tailwindcss"]
+}
