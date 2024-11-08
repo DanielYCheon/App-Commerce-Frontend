@@ -9,15 +9,16 @@ A React-based e-commerce web application designed to provide a seamless shopping
 
 ## :clipboard: Table of Contents
 
-1. [Introduction](#Introduction)  
-2. [Key Features](#Key-Features)
-3. [Functionality](#Functionality)
-4. [Built With](#Built-With)
-5. [Getting Started](#Getting-Started)
+1. [Introduction](#Introduction)
+2. [Demo](#Demo)  
+3. [Key Features](#Key-Features)
+4. [Functionality](#Functionality)
+5. [Built With](#Built-With)
+6. [Getting Started](#Getting-Started)
    - [Prerequisites](#Prerequisites)
    - [Installation](#Installation)
-6. [Usage](#Usage)
-7. [License](#License)
+7. [Usage](#Usage)
+8. [License](#License)
 7. [References](#References)
 
 <br/>
@@ -30,6 +31,7 @@ The Commerce Client application delivers user-friendly shopping experience throu
 <br/>
 <!--- -----------------------------------------------------------------------------------------Section Divide--------------------------------------------------------------- --->
 
+<a id="Demo"></a>
 ## :floppy_disk: Demo
 
 <br/>
