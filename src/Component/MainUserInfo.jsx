@@ -29,11 +29,12 @@ export default function MainUserInfo() {
             <NavLink
               to="/account"
               style={({ isActive }) => ({
-                color: isActive ? "	#888888" : "black",
+                color: isActive ? "orange" : "black",
+                backgroundColor: isActive ? "cyan" : "white",
               })}
             >
               <button
-                className="flex focus:outline-none focus:ring-4 focus:ring-blue-300 "
+                className="flex focus:outline-none focus:ring-4 "
                 onClick={() => hoverEffect("/account")}
               >
                 <UserCircleIcon className="w-6 " />
@@ -46,6 +47,7 @@ export default function MainUserInfo() {
               to="/address"
               style={({ isActive }) => ({
                 color: isActive ? "orange" : "black",
+                backgroundColor: isActive ? "cyan" : "white",
               })}
               onClick={hoverEffect}
             >
@@ -55,31 +57,25 @@ export default function MainUserInfo() {
               </div>
             </NavLink>
           </li>
-
-          <NavLink
-            to="/wishlist"
-            style={({ isActive }) => ({
-              color: isActive ? "orange" : "black",
-              backgroundColor: isActive ? "cyan" : "white",
-            })}
-            onClick={hoverEffect}
-            className="flex gap-2  p-5 pl-10 hover:bg-cyan-500"
-          >
-            <ShoppingBagIcon className="flex w-6" />
-            Wishlist
-          </NavLink>
+          <li className=" p-5 pl-10 hover:bg-cyan-500">
+            <NavLink
+              to="/wishlist"
+              style={({ isActive }) => ({
+                color: isActive ? "orange" : "black",
+                backgroundColor: isActive ? "white" : "white",
+              })}
+              onClick={hoverEffect}
+            >
+              <div className="flex gap-2">
+                <ShoppingBagIcon className="flex w-6" />
+                Wishlist
+              </div>
+            </NavLink>
+          </li>
 
           <li className="m-0  p-5 pl-10 hover:bg-cyan-500">Log out</li>
         </ul>
       </div>
-      <button className="w-full cursor-pointer  hover:bg-violet-600 focus:bg-slate-500 focus:outline-none focus:ring focus:ring-violet-300 active:bg-blue-700">
-        Log out
-      </button>
-      <Link to="/viewcart">
-        <button className="w-full cursor-pointer  hover:bg-violet-600 focus:bg-slate-500 focus:outline-none focus:ring focus:ring-violet-300 active:bg-blue-700">
-          View Cart
-        </button>
-      </Link>
     </div>
   );
 }

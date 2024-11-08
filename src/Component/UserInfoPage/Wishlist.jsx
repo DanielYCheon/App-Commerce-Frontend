@@ -99,11 +99,14 @@ export default function Wishlist() {
                   </div>
                 </div>
                 <div className="flex">
-                  <button type="button" className="">
+                  <h className="ml-auto mt-6 flex items-center   border-gray-300 bg-transparent px-3 py-1.5 text-xs text-gray-800 outline-none">
+                    QTY
+                  </h>
+                  <div type="button" className="">
                     <span className="ml-auto mt-6 flex items-center rounded-md border border-gray-300 bg-transparent px-3 py-1.5 text-xs text-gray-800 outline-none">
                       {item.count}
                     </span>
-                  </button>
+                  </div>
                   <div className="outline-noneo ml-auto mt-6 flex items-center rounded-md border border-gray-300 bg-transparent px-3 py-1.5 text-xs text-gray-800">
                     <h4 className="font-bold">${item.price}</h4>
                   </div>
@@ -112,7 +115,14 @@ export default function Wishlist() {
               <hr className="border-gray-300" />
             </div>
           ))}
-          <div> Total Price: ${totalPrice.toFixed(2)}</div>
+        </div>
+        <div class=" flex w-[50rem] items-center justify-between gap-4 p-10">
+          <div class="text-base font-bold text-gray-900 dark:text-white">
+            Total
+          </div>
+          <div class="text-base font-bold text-gray-900 dark:text-white">
+            ${totalPrice.toFixed(2)}
+          </div>
         </div>
       </div>
     </div>
