@@ -50,7 +50,22 @@ The Commerce Client application delivers user-friendly shopping experience throu
 | ------------- | ------------- |
 | ![MenSection](https://github.com/user-attachments/assets/9bbaf49a-1867-44d8-95e3-683e90c8a146) | ![WomenSection_Desktop](https://github.com/user-attachments/assets/17191a95-aa9f-405a-bdeb-e9a2ffa78da8)|
 
+<br/>
 
+| Account  | Address  |
+| ------------- | ------------- |
+| ![Account](https://github.com/user-attachments/assets/6a6c26f5-8603-4ce9-af8d-bf539a4514d7) | ![Address](https://github.com/user-attachments/assets/6846b2db-06f2-44d5-901e-3853515276ec)|
+
+<br/>
+
+| Wishlist  | Click Cart  |
+| ------------- | ------------- |
+| ![WishlistUser](https://github.com/user-attachments/assets/60d458b3-f923-44cf-b679-b268cec24fdb) | ![ShoppingCart](https://github.com/user-attachments/assets/32772553-07ee-4ccc-b8d9-21326809d595)|
+
+
+<br/>
+
+![Animation](https://github.com/user-attachments/assets/51d55f48-3e0c-4eb3-b6f3-ce6e626132e7)
 
 
 
@@ -183,8 +198,9 @@ Where:
 ## :globe_with_meridians: Getting Started
 
 
-> [!WARNING]
-> This frontend application requires the backend server and database to be set up for full functionality.
+> [!CAUTION]
+> This frontend application requires the backend server and database to be set up for full functionality. Please read **_Prerequisites_**
+
 
 <br/>
 <!--- -----------------------------------------------------------------------------------------Section Divide--------------------------------------------------------------- --->
